@@ -1,0 +1,86 @@
+/* nuestras variables globales */
+:root{
+    --fondo: #E3FCBF;
+    --calculadora: #B8F1B0;
+    --teclas: #00FFAB;
+    --otro: #14C38E;
+    --negro: #000000;
+    --blanco: #FFFFFF;
+}
+/* normalizacion */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    background-color: var(--fondo);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
+  }
+  
+  .calculadora{
+    margin: 8rem;
+    border: 2px solid var(--negro);
+    background-color: var(--calculadora);
+    width: 30rem;
+    height: 55rem;
+    border-radius: 10px;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .pantalla{
+    margin: 2rem;
+    border: 5px solid var(--negro);
+    background-color: var(--otro);
+    width: 90%;
+    height: 20%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  .operaciones{
+    margin: 1rem;
+    border: 2rem;
+    width: 35%;
+    height: 65%;
+    border-radius: 10px;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+  }
+  .numeros{
+    margin: 1rem;
+    border: 2rem;
+    border-radius: 10px;
+    width: 50%;
+    height: 65%;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: space-around;
+    justify-content: space-evenly;
+    flex-flow: wrap-reverse;
+  }
+  button{
+    height: 5rem;
+    width: 4rem;
+    border: 1px solid var(--negro);
+    color: var(--negro);
+    border-radius: 5px;
+    font-size: 17px;
+    background-color: var(--teclas);
+}
