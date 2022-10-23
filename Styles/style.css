@@ -75,7 +75,7 @@
     justify-content: space-evenly;
     flex-flow: wrap-reverse;
   }
-  button{
+ .boton{
     height: 5rem;
     width: 4rem;
     border: 1px solid var(--negro);
@@ -83,4 +83,8 @@
     border-radius: 5px;
     font-size: 17px;
     background-color: var(--teclas);
+}
+.boton:hover{
+  background-color: var(--negro);
+  color: var(--teclas);
 }
