@@ -31,7 +31,7 @@ const raiz = document.querySelector("#btnRaiz")
 const residuo = document.querySelector("#btnResiduo")
 const clear = document.querySelector("#btnClear")
 const mem1 = document.querySelector("#btnMemoria1")
-const mem2 = document.querySelector("#btnMemoria2")
+const mem2 = document.querySelector("#btnigual")
 
 const btn0 = document.querySelector("#btn0")
 const btnDecimal = document.querySelector("#btnDecimal")
